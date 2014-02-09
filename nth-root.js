@@ -13,12 +13,12 @@
 		This does not support bigger numbers.
 	@end-module-documentation
 */
-nthRoot = function nthRoot( root, base ){
+nthRoot = function nthRoot( base, root ){
 	/*:
 		@meta-configuration:
 			{
-				"root:required": "number",
-				"base:required": "number"
+				"base:required": "number",
+				"root:required": "number"
 			}
 		@end-meta-configuration
 	*/
