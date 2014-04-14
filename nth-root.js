@@ -13,7 +13,7 @@
 		This does not support bigger numbers.
 	@end-module-documentation
 */
-nthRoot = function nthRoot( base, root ){
+var nthRoot = function nthRoot( base, root ){
 	/*:
 		@meta-configuration:
 			{
